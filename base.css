@@ -5,6 +5,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .wrapper {
@@ -20,19 +21,109 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #529153;
     padding: 10px 20px 0px;
+    justify-content: right;
+    font-size: 11pt;
 }
-.header {
-    background-color: rgb(5, 108, 108);
+
+.menu li {
+    list-style: none;
+    padding: 3px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.menu ul{
+    padding:0;
+    background-color: #529153;
+    
+}
+
+.menu h2{
+
+    color: #ffffff;
+    padding: 2px;
+    border-bottom: 2px solid #ffffff;
+  
+}
+
+.header1 {
+    background-image: url("https://blog.estacio.br/wp-content/uploads/2021/01/8-grandes-m%C3%A9dicos-que-revolucionaram-a-Medicina.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKvNHLUe67xG_VzOjg6qJND9BTMTcg49sIQ&s");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header3 {
+    background-image: url("");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header4 {
+    background-image: url("https://blog.estacio.br/wp-content/uploads/2021/01/8-grandes-m%C3%A9dicos-que-revolucionaram-a-Medicina.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content {
-    background-color: white;
+    background-color: rgb(248, 243, 243);
     min-height: 300px;
     padding: 20px;
+    text-align: justify;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    display: flex;
+    background-color: #2C2C36;
     min-height: 150px;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer div{
+    align-items: baseline;
+}
+
+.footer div a{
+    color: white;
+    text-decoration: underline;
+}
+
+.selected{
+    background-color: white !important;
+    color: #529153 !important;
+    
 }
