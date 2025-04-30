@@ -97,7 +97,7 @@ body {
     justify-content: center;
 }
 .content {
-    background-color: rgb(248, 243, 243);
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
     padding: 20px;
     text-align: justify;
@@ -125,5 +125,19 @@ body {
 .selected{
     background-color: white !important;
     color: #529153 !important;
+    align-content: center;
     
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: #00000029;
 }
